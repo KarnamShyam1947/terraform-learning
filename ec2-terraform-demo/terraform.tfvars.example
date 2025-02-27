@@ -1,0 +1,4 @@
+ami_id="your_ami_id"
+instance_type="your_instance_type"
+key_name="your_key_name"
+instance_name ="your_instance_name"
