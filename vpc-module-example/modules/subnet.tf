@@ -3,7 +3,7 @@ resource "aws_subnet" "terraform_public_subnets" {
   vpc_id     = aws_vpc.terraform_vpc_demo.id
   cidr_block = element(var.cidr_public_subnet, count.index)
   availability_zone = element(var.us_availability_zone, count.index)
-
+  map_public_ip_on_launch = true
   tags = {
     Name = "Terraform_Public_Subnet_${count.index + 1}"
   }
