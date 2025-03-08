@@ -1,6 +1,4 @@
-.devcontainer
-
-**/.terraform/*
+.terraform/*
 
 *.tfstate
 *.tfstate.*
@@ -20,4 +18,3 @@ override.tf.json
 
 .terraformrc
 terraform.rc
-
